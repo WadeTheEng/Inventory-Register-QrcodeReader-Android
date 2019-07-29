@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:text="Lng Update"
+        android:textColor="@color/black"
+        android:id="@+id/pending_list_txt_title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:text="07/05/13 2017"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/AppGrey"
+        android:layout_below="@id/pending_list_txt_title"
+        android:id="@+id/pending_list_txt_date"/>
+    <LinearLayout
+        android:layout_below="@id/pending_list_txt_date"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/AppGrey"
+        android:layout_marginTop="10dp"
+        android:layout_height="1dp">
+    </LinearLayout>
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/icon_indicator"/>
+
+</RelativeLayout>
